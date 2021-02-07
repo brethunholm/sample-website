@@ -1,0 +1,150 @@
+/* universal styles */
+ html {
+    Font-Family: 'Droid Serif', Serif;
+    Font-Size: 15px;
+ }
+
+ img {
+     height: 200px;
+     width:200px
+ }
+
+ h1 {
+    Font-Family: 'Roboto', Sans-Serif;
+    Font-Size: 35px;
+ }
+p {
+    margin: 0;
+}
+ /* header section */
+ header {
+     height: 15%;
+     margin: 0;
+    display:flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    background:#0396A6;
+    align-items: center;
+ }
+ 
+ .logo {
+     align-items: flex-start;
+     height:70px;
+     width: 70px;
+ }
+
+ nav  a {
+   padding: 40px;
+   text-decoration: none;
+   flex-flow: row;
+   align-items: center;
+   margin: 20px;
+   color: white;
+   
+}
+
+/* banner section */
+ .container {
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+    height: 700px;
+    width: 100%;
+    background: #coral;
+    background-image: url('../images/sailbanner.png');
+    background-size: cover;
+   margin: 0 auto;
+ }
+ 
+ .banner {
+    width: 100%;
+    height: 200px;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+     align-items: left;
+     padding: 200px;
+       }
+
+       .banner h2 {
+    font-size: 35px;
+    color: #F25C05;
+}
+.mission {
+    padding: 20px;
+    height: 400px;
+    margin-top: 40px;
+}
+.mission h2{
+    color: #0396A6;
+    font-size: 30px;
+}
+
+.mission p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.options {
+    background: coral;
+   height: 30%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 30px;
+  }
+.cruise  {
+    display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+  .options img {
+      border-radius: 10px;
+      width: 500px;
+      height: 350px;
+  }
+
+.locations {
+    height: 900px;
+    width: 100vw;
+    background-image: url('../images/location.jpeg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-content {
+    height: 750px;
+    width: 600px;
+    padding: 50px;
+    background:rgba(250, 250, 250, 0.808);
+    /* margin:  auto; */
+    align-content: center;
+    border-radius: 10px;
+}
+
+.location-content p {
+    font-size: 17px;
+}
+
+.location-content h2 {
+    font-size: 30px;
+    color: #0396A6;
+    font-weight: 100;
+}
+.footer {
+    background: coral;
+    width: 100vw;     
+}
+
+.footer-bottom {
+    background:#0396A6;
+    height: 100px;
+    width: 100vw;
+    padding-top: 50px;
+}
